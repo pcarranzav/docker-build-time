@@ -1,6 +1,6 @@
 FROM resin/armv7hf-node
 
-RUN apt-get update && apt-get install -y time
+RUN apt-get update && apt-get install -y time curl
 
 RUN time apt-get install -y alsa-utils libasound2-dev
 
