@@ -1,0 +1,24 @@
+{
+  "name": "docker-build-time",
+  "version": "1.0.0",
+  "description": "A benchmark of how long a docker build takes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcarranzav/docker-build-time.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarranzav/docker-build-time/issues"
+  },
+  "homepage": "https://github.com/pcarranzav/docker-build-time",
+  "dependencies": {
+    "lame": "^1.2.2",
+    "request": "^2.58.0",
+    "speaker": "^0.2.5"
+  }
+}
