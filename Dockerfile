@@ -1,4 +1,4 @@
-FROM resin/armv7hf-debian
+FROM resin/armv7hf-node
 
 RUN apt-get update && apt-get install -y time
 
