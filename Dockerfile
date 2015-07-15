@@ -15,4 +15,9 @@ RUN time curl -L https://github.com/raspberrypi/linux/archive/rpi-3.18.y.tar.gz 
 
 RUN chmod +x /app/start
 
+
+RUN echo "deb http://packages.linuxmint.com debian import" >> /etc/apt/sources.list
+RUN apt-get update && time apt-get install -y firefox
+
+
 CMD cd /app && ./start
